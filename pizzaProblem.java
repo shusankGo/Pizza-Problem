@@ -12,7 +12,7 @@ class Main {
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number of slices to be made: ");
+        System.out.println("Enter the number of slices to be made: ");//comment here
         int n = scanner.nextInt(); // user input the number of slices to be made
         cutPizza(n);
     }
